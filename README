@@ -2,3 +2,11 @@ Based JorgenVatle's work on Tado integration for HomeAssistant.
 Refer to his repo for full credits
 
 https://github.com/JorgenVatle/PyTado
+
+Licence: GPL v3
+
+Copyright: Chris Jewell 2016-2018
+
+=====
+
+Manifest has been modified to use https://github.com/simonepsp/PyTado repo
