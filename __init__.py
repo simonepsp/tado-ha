@@ -299,13 +299,13 @@ class TadoConnector:
 
         try:
             self.tado.setZoneOverlay(
-                zone_id,
-                overlay_mode,
-                temperature,
-                duration,
-                device_type,
-                "ON",
-                mode,
+                zone=zone_id,
+                overlayMode=overlay_mode,
+                setTemp=temperature,
+                duration=duration,
+                deviceType=device_type,
+                power="ON",
+                mode=mode,
                 fanLevel=fan_speed,
                 verticalSwing=vertical_swing,
                 horizontalSwing=horizontal_swing,
