@@ -1,0 +1,15 @@
+# Python compiled files.
+*.pyc
+
+# Eclipse project files.
+.project
+.pydevproject
+
+python_tado.egg-info
+build/
+dist/
+
+PyCharms
+.idea/
+
+test.py
