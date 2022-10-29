@@ -520,6 +520,10 @@ class TadoClimate(TadoZoneEntity, ClimateEntity):
         new_hvac_mode = CONST_MODE_COOL if self._ac_device else CONST_MODE_HEAT
         self._control_hvac(target_temp=temperature, hvac_mode=new_hvac_mode)
 
+    def turn_off(self):
+        """Switch zone off."""
+        self._control_hvac(hvac_mode=CONST_MODE_SMART_SCHEDULE)
+
     def set_hvac_mode(self, hvac_mode: HVACMode) -> None:
         """Set new target hvac mode."""
 
