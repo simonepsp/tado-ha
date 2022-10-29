@@ -7,6 +7,11 @@ Licence: GPL v3
 
 Copyright: Chris Jewell 2016-2018
 
-=====
+How to use
+-------------------
 
+    Git pull into HA Machine > config > custom_components
+    Might need to be renamed "tado"
+
+-------------------
 Manifest has been modified to use https://github.com/simonepsp/PyTado repo
