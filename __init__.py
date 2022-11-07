@@ -321,7 +321,7 @@ class TadoConnector:
         """Set a zone to off."""
         try:
             self.tado.setZoneOverlay(
-                zone_id, overlay_mode, None, None, device_type, "OFF"
+                zone=zone_id, overlayMode=overlay_mode, deviceType=device_type, power="OFF", mode='AUTO'
             )
         except RequestException as exc:
             _LOGGER.error("Could not set zone overlay: %s", exc)
